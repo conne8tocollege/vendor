@@ -16,7 +16,7 @@ import { Separator } from '@/components/ui/separator'
 import { UserNav } from '@/components/user-nav'
 import { useState } from 'react'
 
-const WebsiteLeads = () => {
+const AddLeads = () => {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -255,4 +255,4 @@ const WebsiteLeads = () => {
   )
 }
 
-export default WebsiteLeads
+export default AddLeads
