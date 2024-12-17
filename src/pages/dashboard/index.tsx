@@ -5,13 +5,12 @@ import { Search } from '@/components/search'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import ThemeSwitch from '@/components/theme-switch'
 import { UserNav } from '@/components/user-nav'
-import { useQuery } from '@tanstack/react-query'
-import { dashboard } from '@/api'
 import Loader from '@/components/loader'
 import { useState } from 'react'
 
 export default function Dashboard() {
   const [isLoading, setIsLoading] = useState(false)
+  console.log(setIsLoading)
 
   return (
     <Layout>
