@@ -20,9 +20,9 @@ export const sidebarData: SidebarData = {
   },
   teams: [
     {
-      name: 'Shadcn Admin',
+      name: 'C2C Vendor',
       logo: Command,
-      plan: 'Vite + ShadcnUI',
+      plan: 'Connect-2-College',
     },
   ],
   navGroups: [
