@@ -11,7 +11,7 @@ interface ProtectedRouteProps extends IContainer {
 
 const ProtectedRoute = ({
   children,
-  redirectTo = '/sign-in-2', // Default redirect path
+  redirectTo = '/sign-in', // Default redirect path
   loaderTimeout = 10000, // 10-second timeout for loading
 }: ProtectedRouteProps) => {
   const { isLoading, user } = useAuth()
